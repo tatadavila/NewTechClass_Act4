@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:shadowColor="#FFFFFF"
+            android:text="INFORME DE PRUEBAS COVID-19 | COLOMBIA"
+            android:textColor="#3F51B5"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="59dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/newPatientBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:backgroundTint="#3F51B5"
+                android:text="NUEVO PACIENTE"
+                android:textColor="#FFFFFF"
+                android:textSize="27dp" />
+
+            <Space
+                android:layout_width="11dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/listPatientsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:backgroundTint="#3F51B5"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="VER REGISTROS"
+                android:textColor="#FFFFFF"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
