@@ -20,8 +20,6 @@ public class ListActivity extends AppCompatActivity implements PatientListener {
     PatientController pC;
     RecyclerView pList;
     PatientCursorAdapter pCA;
-    Patient pat;
-    List<String> selectedIdsList;
     private List<Patient> patientList = new ArrayList<Patient>();
 
     private Patient patientSelected = null;

@@ -20,7 +20,6 @@ public class Covid19TestsBD extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
-        //sqLiteDatabase.execSQL(DbDef.DELETE_TEST_TABLE);
         onCreate(sqLiteDatabase);
     }
 
